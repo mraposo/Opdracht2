@@ -1,0 +1,8 @@
+ttTest:WRITE-JSON to jArr
+After calling WRITE-JSON() JsonArray contains:
+[{"f1":"AAA","f2":1},{"f1":"InitVal","f2":2},{"f1":"BBB","f2":0}]
+jArr:LENGTH = 3
+
+ttTest:WRITE-JSON to jObj
+After calling WRITE-JSON () JsonObject contains:
+{"ttTest":[{"f1":"AAA","f2":1},{"f1":"InitVal","f2":2},{"f1":"BBB","f2":0}]}
